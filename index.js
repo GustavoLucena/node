@@ -6,8 +6,10 @@ app.get('/', function (req, res) {
 });
 
 
-app.set('port', process.env.PORT || 3000);
+//app.set('port', process.env.PORT || 3000);
+const PORT = process.env.PORT || 3000;
 
-app.listen(3000, function () {
+
+app.listen(PORT, function () {
   console.log('Example app listening on port 3000!');
 });
