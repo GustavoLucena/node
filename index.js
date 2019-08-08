@@ -7,7 +7,7 @@ app.get('/', function (req, res) {
 
 
 //app.set('port', process.env.PORT || 3000);
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8080;
 
 
 app.listen(PORT);
